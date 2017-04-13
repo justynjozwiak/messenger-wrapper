@@ -68,7 +68,7 @@ const messenger = new MessengerWrapper({
   pageAccessToken: '<PAGE_ACCESS_TOKEN>'
 });
 
-//here we define 3 available listeners: 'message', 'delivery', 'postback' and 'optin':
+//here we define 4 available listeners: 'message', 'delivery', 'postback' and 'optin':
 messenger.on('message', (event) => {
   //put your logic here
 });
