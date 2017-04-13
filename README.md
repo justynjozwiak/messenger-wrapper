@@ -26,7 +26,7 @@ import { MessengerWrapper } from 'messenger-wrapper';
 Initialize it:
 
 ```javascript
-let messenger = new MessengerWrapper({
+const messenger = new MessengerWrapper({
   verifyToken:     '<VERIFY_TOKEN>',
   pageAccessToken: '<PAGE_ACCESS_TOKEN>'
 });
@@ -63,7 +63,7 @@ This is sample usage within express.js application. For full example look [here]
 import { MessengerWrapper } from 'messenger-wrapper';
 
 //let's initialize our wrapper here
-let messenger = new MessengerWrapper({
+const messenger = new MessengerWrapper({
   verifyToken:     '<VERIFY_TOKEN>',
   pageAccessToken: '<PAGE_ACCESS_TOKEN>'
 });
